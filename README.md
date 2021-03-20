@@ -9,5 +9,6 @@ To detect dynamic objects the OpenCV library is used.
 <img src="/simples/detection2.png" width=70% height=70%>
 
 <img src="/simples/detection1.png" width=70% height=70%>
+
 # Built With
 [Python](https://www.python.org); [OpenCV](https://docs.opencv.org).

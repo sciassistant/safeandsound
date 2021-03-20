@@ -5,4 +5,4 @@ With more people than ever working from home, there are going to be some screwup
 # What it does/is going to do
 Safe and Sound automatically adds blur to the background in the video when a dynamic object becomes a part of it.
 # Built With
-[Python](https://www.python.org) [OpenCV](https://docs.opencv.org)
+[Python](https://www.python.org); [OpenCV](https://docs.opencv.org).

@@ -7,7 +7,7 @@ Safe and Sound automatically adds blur to the background in the video when a dyn
 # How we built it
 To detect dynamic objects the OpenCV library is used.
 ![header image](/simples/detection2.png)
-<img src="/simples/detection2.png" width="100" height="100">
+<img src="/simples/detection2.png" width=50% height=50%>
 ![header image](/simples/detection1.png)
 # Built With
 [Python](https://www.python.org); [OpenCV](https://docs.opencv.org).

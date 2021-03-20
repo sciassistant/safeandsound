@@ -10,5 +10,7 @@ To detect dynamic objects and blur to the background, the OpenCV library is used
 
 <img src="/simples/detection1.png" width=70% height=70%>
 
+# Limitations
+
 # Built With
 [Python](https://www.python.org); [OpenCV](https://docs.opencv.org).

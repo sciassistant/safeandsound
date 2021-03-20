@@ -6,6 +6,7 @@ With more people than ever working from home, there are going to be some screwup
 Safe and Sound automatically adds blur to the background in the video when a dynamic object becomes a part of it.
 # How we built it
 To detect dynamic objects and blur to the background, the OpenCV library is used.
+
 <img src="/simples/detection2.png" width=70% height=70%>
 
 <img src="/simples/detection1.png" width=70% height=70%>

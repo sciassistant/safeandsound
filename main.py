@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 '''
 Sources used:
-https://docs.opencv.org
+https://docs.opencv.org/4.5.1/
 https://myrusakov.ru/python-opencv-move-detection.html
 '''
 
@@ -42,7 +42,7 @@ while test_video.isOpened(): # Continue looping until video is completed
 
     if cv2.waitKey(40) == 27:
         break
-        
+
 # Release the video capture object and close the frames
 test_video.release()
 cv2.destroyAllWindows()

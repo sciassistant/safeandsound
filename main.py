@@ -8,7 +8,7 @@ https://myrusakov.ru/python-opencv-move-detection.html
 import cv2
 
 # Create an object
-test_video = cv2.VideoCapture('simples\c1.mp4') # import frames a video file
+test_video = cv2.VideoCapture('simples\source_video.mp4') # import frames a video file
 #test_video = cv2.VideoCapture(0); # web cam frames
 
 # first and second frame
@@ -26,15 +26,12 @@ while test_video.isOpened(): # Continue looping until video is completed
     contours, _ = cv2.findContours(dilated, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE) # Find Contours (Array)
 
     for contour in contours:
-
         (x, y, w, h) = cv2.boundingRect(contour) # Coordinate transformations
         #print(cv2.contourArea(contour)) # Calculate area of the fixed object at any one time
 
         if cv2.contourArea(contour) < 3500: # If the fixed aria less than 3500 px
             continue
-        cv2.putText(frame_1, "{}".format("Attention"),
-                    (500, 400), cv2.FONT_HERSHEY_SIMPLEX, 1,
-                    (0, 0, 255), 3, cv2.LINE_AA) # Alarm text
+        cv2.putText(frame_1, "{}".format("Attention"), (500, 400), cv2.FONT_HERSHEY_SIMPLEX, 1,(0, 0, 255), 3, cv2.LINE_AA) # Alarm text
 
     cv2.imshow("frame1", frame_1)
     frame_1 = frame_2

@@ -9,7 +9,13 @@ To detect dynamic objects and to blur the background, the OpenCV library is used
 
 <img src="/simples/detection2.png" width=70% height=70%>
 
-<img src="/simples/test.gif" width=70% height=70%>
+Motion detection:
+
+<img src="/simples/test1.gif" width=70% height=70%>
+
+Bluring background:
+
+<img src="/simples/test2.gif" width=70% height=70%>
 
 # Limitations
 
